@@ -43,10 +43,13 @@ details p {
    margin: 3px; 
 }
 
-summary {
+summary, th {
     background-color: steelblue;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.2rem;
+    padding: 2px;
+    margin: 0;
+    line-height: 1.3rem;
 }
 
 li {
@@ -76,4 +79,8 @@ dt {
     color: darkblue;
     font-weight: bold;
     margin-top: 1rem;
+}
+
+.rojo {
+    color:red
 }
